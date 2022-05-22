@@ -10,6 +10,8 @@ const AddTodo = ({addTodo}) => {
         }
         else{
             addTodo(title,desc);
+            setTitle("");
+            setDesc("");
         }
     }
   return (
